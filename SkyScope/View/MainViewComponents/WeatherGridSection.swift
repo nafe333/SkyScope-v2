@@ -7,12 +7,31 @@
 
 import SwiftUI
 
-struct WeatherGridSection: View {
+struct WeatherGridSectionView: View {
+    var currentWeather: CurrentWeather?
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let gridItems = createGridItems(from: currentWeather!)
+
+        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+            ForEach(gridItems, id: \.title) { item in
+                DayGridView(title: item.title, value: item.value)
+            }
+        }
+        .padding(.horizontal, 20)
+    }
+
+    private func createGridItems(from currentWeather: CurrentWeather) -> [GridData] {
+        [
+            GridData(title: "VISIBILITY", value: String(format: "%.1f km", currentWeather.visKm)),
+            GridData(title: "HUMIDITY", value: "\(currentWeather.humidity)%"),
+            GridData(title: "FEELS LIKE", value: String(format: "%.f°", currentWeather.feelslikeC)),
+            GridData(title: "PRESSURE", value: String(format: "%.0f", currentWeather.pressureMb))
+        ]
     }
 }
 
+
 #Preview {
-    WeatherGridSection()
+    WeatherGridSectionView(currentWeather: nil )
 }

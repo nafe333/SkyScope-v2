@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4C30D52E9CED43008F3FD5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C30D42E9CED43008F3FD5 /* Constants.swift */; };
+		AA4C30D72E9CFD8B008F3FD5 /* DaysRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C30D62E9CFD8B008F3FD5 /* DaysRowView.swift */; };
+		AA4C30DA2E9D21CB008F3FD5 /* DayGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C30D92E9D21CB008F3FD5 /* DayGridView.swift */; };
+		AA4C30DC2E9D28A1008F3FD5 /* GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C30DB2E9D28A1008F3FD5 /* GridData.swift */; };
+		AA8B93B52E9D7F7A00CB1162 /* DayDetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B93B42E9D7F7A00CB1162 /* DayDetailsRowView.swift */; };
+		AA8B93B72E9DBCC500CB1162 /* DayDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B93B62E9DBCC500CB1162 /* DayDetailsView.swift */; };
+		AA8B93BA2E9DBF1800CB1162 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B93B92E9DBF1800CB1162 /* HeaderView.swift */; };
+		AA8B93BC2E9DBF5A00CB1162 /* ForeCastSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B93BB2E9DBF5A00CB1162 /* ForeCastSectionView.swift */; };
+		AA8B93BE2E9DBFFF00CB1162 /* WeatherGridSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B93BD2E9DBFFF00CB1162 /* WeatherGridSection.swift */; };
+		AA8B93C72E9EB32B00CB1162 /* Rain.json in Resources */ = {isa = PBXBuildFile; fileRef = AA8B93C52E9EB32B00CB1162 /* Rain.json */; };
+		AA8B93C92E9EB4E500CB1162 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B93C82E9EB4E500CB1162 /* LottieView.swift */; };
+		AA8B93CC2E9EB77600CB1162 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AA8B93CB2E9EB77600CB1162 /* Lottie */; };
+		AA8B93D62E9EF5DE00CB1162 /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = AA8B93D52E9EF5DD00CB1162 /* weather.json */; };
 		AA8FD5602E9C51F00070AF03 /* SkyScopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FD55F2E9C51F00070AF03 /* SkyScopeApp.swift */; };
-		AA8FD5622E9C51F00070AF03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FD5612E9C51F00070AF03 /* ContentView.swift */; };
+		AA8FD5622E9C51F00070AF03 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FD5612E9C51F00070AF03 /* MainView.swift */; };
 		AA8FD5642E9C51F20070AF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8FD5632E9C51F20070AF03 /* Assets.xcassets */; };
 		AA8FD5672E9C51F20070AF03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8FD5662E9C51F20070AF03 /* Preview Assets.xcassets */; };
+		AA8FD5732E9C5CF00070AF03 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FD5722E9C5CF00070AF03 /* WeatherResponse.swift */; };
+		AA8FD5762E9C5EF70070AF03 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FD5752E9C5EF70070AF03 /* WeatherService.swift */; };
+		AA8FD5782E9C62390070AF03 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FD5772E9C62390070AF03 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B4FA8CBB92BEF01760EF380 /* Pods-SkyScope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyScope.debug.xcconfig"; path = "Target Support Files/Pods-SkyScope/Pods-SkyScope.debug.xcconfig"; sourceTree = "<group>"; };
+		AA4C30D42E9CED43008F3FD5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AA4C30D62E9CFD8B008F3FD5 /* DaysRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysRowView.swift; sourceTree = "<group>"; };
+		AA4C30D92E9D21CB008F3FD5 /* DayGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayGridView.swift; sourceTree = "<group>"; };
+		AA4C30DB2E9D28A1008F3FD5 /* GridData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridData.swift; sourceTree = "<group>"; };
+		AA8B93B42E9D7F7A00CB1162 /* DayDetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsRowView.swift; sourceTree = "<group>"; };
+		AA8B93B62E9DBCC500CB1162 /* DayDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsView.swift; sourceTree = "<group>"; };
+		AA8B93B92E9DBF1800CB1162 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AA8B93BB2E9DBF5A00CB1162 /* ForeCastSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeCastSectionView.swift; sourceTree = "<group>"; };
+		AA8B93BD2E9DBFFF00CB1162 /* WeatherGridSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGridSection.swift; sourceTree = "<group>"; };
+		AA8B93C52E9EB32B00CB1162 /* Rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Rain.json; sourceTree = "<group>"; };
+		AA8B93C82E9EB4E500CB1162 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		AA8B93D52E9EF5DD00CB1162 /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
 		AA8FD55C2E9C51F00070AF03 /* SkyScope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyScope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8FD55F2E9C51F00070AF03 /* SkyScopeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyScopeApp.swift; sourceTree = "<group>"; };
-		AA8FD5612E9C51F00070AF03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA8FD5612E9C51F00070AF03 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AA8FD5632E9C51F20070AF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8FD5662E9C51F20070AF03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA8FD5722E9C5CF00070AF03 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		AA8FD5752E9C5EF70070AF03 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		AA8FD5772E9C62390070AF03 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		D1DB142C49B47D18643B6E3B /* Pods-SkyScope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyScope.release.xcconfig"; path = "Target Support Files/Pods-SkyScope/Pods-SkyScope.release.xcconfig"; sourceTree = "<group>"; };
+		F002F23F6872858D239942E5 /* Pods_SkyScope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyScope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +60,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8B93CC2E9EB77600CB1162 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F34B06339751D1D6A4184D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F002F23F6872858D239942E5 /* Pods_SkyScope.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA4C30D32E9CED2D008F3FD5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C30D42E9CED43008F3FD5 /* Constants.swift */,
+				AA8B93C82E9EB4E500CB1162 /* LottieView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AA8B93B82E9DBF0400CB1162 /* MainViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				AA8B93B92E9DBF1800CB1162 /* HeaderView.swift */,
+				AA8B93BB2E9DBF5A00CB1162 /* ForeCastSectionView.swift */,
+				AA8B93BD2E9DBFFF00CB1162 /* WeatherGridSection.swift */,
+			);
+			path = MainViewComponents;
+			sourceTree = "<group>";
+		};
 		AA8FD5532E9C51F00070AF03 = {
 			isa = PBXGroup;
 			children = (
 				AA8FD55E2E9C51F00070AF03 /* SkyScope */,
 				AA8FD55D2E9C51F00070AF03 /* Products */,
+				D6C68B3FA9B8AADBE544C140 /* Pods */,
+				7F34B06339751D1D6A4184D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +115,12 @@
 		AA8FD55E2E9C51F00070AF03 /* SkyScope */ = {
 			isa = PBXGroup;
 			children = (
+				AA4C30D32E9CED2D008F3FD5 /* Utilities */,
+				AA8FD5702E9C52160070AF03 /* Resources */,
+				AA8FD56F2E9C520F0070AF03 /* ViewModel */,
+				AA8FD56E2E9C52070070AF03 /* View */,
+				AA8FD56D2E9C52020070AF03 /* Model */,
 				AA8FD55F2E9C51F00070AF03 /* SkyScopeApp.swift */,
-				AA8FD5612E9C51F00070AF03 /* ContentView.swift */,
-				AA8FD5632E9C51F20070AF03 /* Assets.xcassets */,
 				AA8FD5652E9C51F20070AF03 /* Preview Content */,
 			);
 			path = SkyScope;
@@ -67,6 +134,64 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AA8FD56D2E9C52020070AF03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA8FD5742E9C5EE60070AF03 /* Services */,
+				AA8FD5722E9C5CF00070AF03 /* WeatherResponse.swift */,
+				AA4C30DB2E9D28A1008F3FD5 /* GridData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA8FD56E2E9C52070070AF03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA8B93B82E9DBF0400CB1162 /* MainViewComponents */,
+				AA8FD5612E9C51F00070AF03 /* MainView.swift */,
+				AA8B93B62E9DBCC500CB1162 /* DayDetailsView.swift */,
+				AA4C30D92E9D21CB008F3FD5 /* DayGridView.swift */,
+				AA4C30D62E9CFD8B008F3FD5 /* DaysRowView.swift */,
+				AA8B93B42E9D7F7A00CB1162 /* DayDetailsRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA8FD56F2E9C520F0070AF03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA8FD5772E9C62390070AF03 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA8FD5702E9C52160070AF03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA8FD5632E9C51F20070AF03 /* Assets.xcassets */,
+				AA8B93C52E9EB32B00CB1162 /* Rain.json */,
+				AA8B93D52E9EF5DD00CB1162 /* weather.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA8FD5742E9C5EE60070AF03 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA8FD5752E9C5EF70070AF03 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D6C68B3FA9B8AADBE544C140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B4FA8CBB92BEF01760EF380 /* Pods-SkyScope.debug.xcconfig */,
+				D1DB142C49B47D18643B6E3B /* Pods-SkyScope.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA8FD56A2E9C51F20070AF03 /* Build configuration list for PBXNativeTarget "SkyScope" */;
 			buildPhases = (
+				4C3500B451B55F46A84E1C26 /* [CP] Check Pods Manifest.lock */,
 				AA8FD5582E9C51F00070AF03 /* Sources */,
 				AA8FD5592E9C51F00070AF03 /* Frameworks */,
 				AA8FD55A2E9C51F00070AF03 /* Resources */,
@@ -83,6 +209,9 @@
 			dependencies = (
 			);
 			name = SkyScope;
+			packageProductDependencies = (
+				AA8B93CB2E9EB77600CB1162 /* Lottie */,
+			);
 			productName = SkyScope;
 			productReference = AA8FD55C2E9C51F00070AF03 /* SkyScope.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +240,9 @@
 				Base,
 			);
 			mainGroup = AA8FD5532E9C51F00070AF03;
+			packageReferences = (
+				AA8B93CA2E9EB77600CB1162 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = AA8FD55D2E9C51F00070AF03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,18 +259,58 @@
 			files = (
 				AA8FD5672E9C51F20070AF03 /* Preview Assets.xcassets in Resources */,
 				AA8FD5642E9C51F20070AF03 /* Assets.xcassets in Resources */,
+				AA8B93C72E9EB32B00CB1162 /* Rain.json in Resources */,
+				AA8B93D62E9EF5DE00CB1162 /* weather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C3500B451B55F46A84E1C26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyScope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA8FD5582E9C51F00070AF03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8FD5622E9C51F00070AF03 /* ContentView.swift in Sources */,
+				AA8B93BE2E9DBFFF00CB1162 /* WeatherGridSection.swift in Sources */,
+				AA8FD5782E9C62390070AF03 /* MainViewModel.swift in Sources */,
+				AA8B93C92E9EB4E500CB1162 /* LottieView.swift in Sources */,
+				AA4C30DC2E9D28A1008F3FD5 /* GridData.swift in Sources */,
+				AA4C30D72E9CFD8B008F3FD5 /* DaysRowView.swift in Sources */,
+				AA8FD5762E9C5EF70070AF03 /* WeatherService.swift in Sources */,
+				AA4C30DA2E9D21CB008F3FD5 /* DayGridView.swift in Sources */,
+				AA8FD5622E9C51F00070AF03 /* MainView.swift in Sources */,
+				AA8FD5732E9C5CF00070AF03 /* WeatherResponse.swift in Sources */,
+				AA8B93BA2E9DBF1800CB1162 /* HeaderView.swift in Sources */,
 				AA8FD5602E9C51F00070AF03 /* SkyScopeApp.swift in Sources */,
+				AA4C30D52E9CED43008F3FD5 /* Constants.swift in Sources */,
+				AA8B93B52E9D7F7A00CB1162 /* DayDetailsRowView.swift in Sources */,
+				AA8B93B72E9DBCC500CB1162 /* DayDetailsView.swift in Sources */,
+				AA8B93BC2E9DBF5A00CB1162 /* ForeCastSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +438,7 @@
 		};
 		AA8FD56B2E9C51F20070AF03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4FA8CBB92BEF01760EF380 /* Pods-SkyScope.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +468,7 @@
 		};
 		AA8FD56C2E9C51F20070AF03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DB142C49B47D18643B6E3B /* Pods-SkyScope.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,6 +518,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA8B93CA2E9EB77600CB1162 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA8B93CB2E9EB77600CB1162 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8B93CA2E9EB77600CB1162 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA8FD5542E9C51F00070AF03 /* Project object */;
 }

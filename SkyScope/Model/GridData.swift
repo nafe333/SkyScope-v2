@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct GridData {
+    let title: String
+    let value: String
+}

@@ -17,7 +17,6 @@ struct DaysRowView: View {
     // MARK: - View
     var body: some View {
         HStack(spacing: 12) {
-            // Left: Day name
             Text(dayName)
                 .font(.title3)
                 .fontWeight(.medium)
@@ -25,8 +24,9 @@ struct DaysRowView: View {
                 .minimumScaleFactor(0.8)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .layoutPriority(2)
+                .foregroundColor(Color("myColor"))
+
             
-            // Center: Weather icon
             if let url = URL(string: "https:\(iconName)") {
                 AsyncImage(url: url) { image in
                     image
@@ -38,15 +38,8 @@ struct DaysRowView: View {
                     ProgressView()
 
                 }
-            } else {
-                Image(systemName: "questionmark.circle.fill")
-                    .font(.system(size: 40))
-                    .foregroundColor(.gray)
-                    .frame(width: 45, height: 45)
-                    .frame(maxWidth: .infinity, alignment: .center)
             }
             
-            // Right: Temperatures
             HStack(spacing: 6) {
                 HStack(spacing: 4) {
                     Image(systemName: "arrowshape.down.fill")
@@ -56,16 +49,19 @@ struct DaysRowView: View {
                         .font(.headline)
                         .monospacedDigit()
                         .fixedSize(horizontal: true, vertical: false)
+                        .foregroundColor(Color("myColor"))
                 }
                 
                 Text("-")
                     .font(.headline)
+                    .foregroundColor(Color("myColor"))
                 
                 HStack(spacing: 4) {
                     Text("\(Int(maxTemp))°")
                         .font(.headline)
                         .monospacedDigit()
                         .fixedSize(horizontal: true, vertical: false)
+                        .foregroundColor(Color("myColor"))
                     Image(systemName: "arrowshape.up.fill")
                         .font(.caption2)
                         .foregroundColor(.red)
